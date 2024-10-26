@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stilesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <title>O Mistério da Casa Abandonada</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stilesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <title>O Mistério da Casa Abandonada</title>
 </head>
+
 <body>
   <main>
-    <div class="passo" id="passo-0">
-      <p>Você está passeando por uma cidade pequena quando encontra uma casa antiga e abandonada. Curioso, você decide investigar. Uma placa na entrada diz: "Cuidado! Propriedade particular.”</p>
+    <div class="passo ativo" id="passo-0">
+      <p>Você está passeando por uma cidade pequena quando encontra uma casa antiga e abandonada. Curioso, você decide
+        investigar. Uma placa na entrada diz: "Cuidado! Propriedade particular.”</p>
       <button class="btn-proximo" data-proximo="1">Decidir Ignorar o Aviso</button>
       <button class="btn-proximo" data-proximo="2">Sair Imediatamente</button>
     </div>
     <div class="passo" id="passo-1">
-      <p>Ignorando o aviso, você entra na casa. Um arrepio percorre sua espinha ao perceber a atmosfera pesada e silenciosa que a envolve.</p>
+      <p>Ignorando o aviso, você entra na casa. Um arrepio percorre sua espinha ao perceber a atmosfera pesada e
+        silenciosa que a envolve.</p>
       <button class="btn-proximo" data-proximo="3">Explorar a Casa</button>
     </div>
   </main>
-    
+  <script src="script.js"></script>
+
 </body>
+
 </html>
